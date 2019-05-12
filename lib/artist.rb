@@ -40,7 +40,7 @@ def self.create(name)   #class method creates & stores instances vs initializing
   artist
 end
 
-def print_songs #instance method iterates through @songs of an instance of Artist
+def print_songs 
   self.songs.each {|song| song.name}
 end
 
