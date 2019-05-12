@@ -40,6 +40,7 @@ end
 
 def print_songs
   puts self.songs[0].name
+    puts self.songs[1].name
   self.songs.each {|song| song.name}
 end
 
