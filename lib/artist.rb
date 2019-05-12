@@ -1,6 +1,6 @@
 class Artist
   attr_accessor :name, :songs
-  @@all = [] 
+  @@all = []
 
   def initialize(name)
     @name = name
@@ -39,6 +39,7 @@ def self.create(name)
 end
 
 def print_songs
+  puts songs
   self.songs.each {|song| song.name}
 end
 
