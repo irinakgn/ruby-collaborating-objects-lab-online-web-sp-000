@@ -13,16 +13,15 @@ class Artist
   end
 
   def save
-    @@all << self     #saves all created instances of Artist class in
-                      #@@all class variable
+    @@all << self     
   end
 
-  def self.all      #class method all returns all instances of Artist class
+  def self.all
     @@all
   end
 
   def self.find_or_create_by_name(name)
-                                      
+
   if self.find(name)
     self.find(name)
   else
