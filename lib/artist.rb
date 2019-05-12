@@ -20,3 +20,5 @@ class Artist
   def self.all      #class method all returns all instances of Artist class
     @@all
   end
+
+end
