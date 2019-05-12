@@ -2,7 +2,7 @@ class Artist
 
 
   def initialize(artist)
-    @artist = []
+    @artists = []
     @artists << artist
   end
 
