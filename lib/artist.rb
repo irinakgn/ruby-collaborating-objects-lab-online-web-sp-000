@@ -39,7 +39,7 @@ def self.create(name)
 end
 
 def print_songs
-  puts self.songs[0]
+  puts self.songs[0].name
   self.songs.each {|song| song.name}
 end
 
