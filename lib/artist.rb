@@ -1,9 +1,9 @@
 class Artist
 
 
-  def initialize(rapist)
+  def initialize(artist)
     @artist = []
-    @artists << rapist
+    @artists << artist
   end
 
 end
